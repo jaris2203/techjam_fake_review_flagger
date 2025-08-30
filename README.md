@@ -95,14 +95,6 @@ On the held-out test set:
 - **Optimize Dual Validation**: Explore lighter LLMs or distilled models for faster cross-checking.
 ---
 
-## Project Structure
-├── main.py # Orchestration script (baseline, enhanced, dual validation)
-├── review_authenticity_system.py # ML model, feature engineering, synthetic fake generation
-├── dual_validation_system.py # ML + LLM cross-validation logic
-├── llama_setup.py # Hard-prompt setup for Llama pseudo-labeling
-├── evaluation.py # Evaluation metrics, confusion matrices
-├── results/ # Saved metrics and plots
-└── README.md
 
 ## How to Reproduce the Results
 
